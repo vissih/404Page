@@ -11,7 +11,7 @@ ctx.lineCap = "square";
 // ctx.lineCap = "round";
 ctx.lineWidth = 100;
 
-let isDrwaing = false;
+let isDrwaing = true;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;

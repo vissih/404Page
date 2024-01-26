@@ -11,7 +11,7 @@ ctx.lineCap = "square";
 // ctx.lineCap = "round";
 ctx.lineWidth = 100;
 
-let isDrwaing = true;
+let isDrwaing = false;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;
@@ -42,10 +42,10 @@ canvas.addEventListener("mousedown", (e) =>{
 });
 
 canvas.addEventListener("mousemove", draw);
-// canvas.addEventListener("mouseup", () =>{
-//     isDrwaing = false;
-//     clearCanvas();
-// });
+canvas.addEventListener("mouseup", () =>{
+    isDrwaing = false;
+    clearCanvas();
+});
 
 canvas.addEventListener("mouseout", ()=>{
     isDrwaing = false;

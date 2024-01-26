@@ -42,10 +42,10 @@ canvas.addEventListener("mousedown", (e) =>{
 });
 
 canvas.addEventListener("mousemove", draw);
-canvas.addEventListener("mouseup", () =>{
-    isDrwaing = false;
-    clearCanvas();
-});
+// canvas.addEventListener("mouseup", () =>{
+//     isDrwaing = false;
+//     clearCanvas();
+// });
 
 canvas.addEventListener("mouseout", ()=>{
     isDrwaing = false;

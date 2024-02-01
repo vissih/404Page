@@ -7,8 +7,6 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = "#BADA55";
 ctx.lineJoin = "square";
 ctx.lineCap = "square";
-// ctx.lineJoin = "round";
-// ctx.lineCap = "round";
 ctx.lineWidth = 100;
 
 let isDrwaing = false;
@@ -51,3 +49,13 @@ canvas.addEventListener("mouseout", ()=>{
     isDrwaing = false;
     clearCanvas();
 });
+
+//used to disable contextmenu
+document.addEventListener("contextmenu",function(e){
+    e.preventDefault()
+},false)
+
+console.log("created by vikas, below are my socials")
+console.log("https://twitter.com/vissih")
+console.log("https://www.linkedin.com/in/vissih")
+console.log("https://github.com/vissih")

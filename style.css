@@ -8,7 +8,6 @@ html,body{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    font-family: "Neue Montreal";
 }
 
 canvas{
@@ -20,17 +19,6 @@ canvas{
 }
 
 .container{
-    position: relative;
     z-index: 1;
     pointer-events: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-p{
-    pointer-events: none;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 1.15;
 }

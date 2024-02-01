@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <title>404Page</title>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>404-page</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <div class="container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quae dignissimos libero cupiditate eaque deleniti quaerat laudantium illo! Accusamus repudiandae voluptas nulla sequi quae delectus maiores suscipit quisquam laudantium maxime!
-            <br>
-            <br>
-            <p>Copyright &copy; All rights reserved.</p>
+
+        <div class="main w-full h-screen bg-white font-['gilroy']">
+
+            <div class="container relative h-screen mx-auto">
+            
+                <div class="navbar flex justify-between items-center w-full py-6 py-4">
+
+                    <h3 class="font-semibold">404 page</h3>
+
+                    <div class="hidden lg:flex links gap-10">
+                    <a class="text-xs opacity-50" href="#">Works</a>
+                    <a class="text-xs opacity-50" href="#">Services</a>
+                    <a class="text-xs opacity-50" href="#">Contact</a>
+                    <a class="text-xs opacity-50" href="#">Pricing</a>
+                    </div>
+
+                    <i class="ri-menu-line lg:hidden"></i>
+
+                </div>
+
+                <div class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full flex flex-col items-center">
+
+                    <div class="image flex items-center justify-center">
+                        <img class="w-60 lg:w-80" src="./where-the-hell-am-i-where-am-i.gif" alt="">
+                    </div>
+
+                    <h3 class="font-semibold text-xl lg:text-2xl mt-4 tracking-tighter"> 404  </h3>
+                    
+                    <h1 class="w-3/4 tracking-tighter text-4xl lg:text-5xl leading-none mt-3 font-semibold text-center">seems like you lost your way</h1>
+
+                    <p class="text-center w-3/4 mt-4 text-sm lg:text-lg lg:opacity-50 font-semibold tracking-tight">
+                        life takes you unexpected places, you can only find the right way after you lost it.
+                        <br>
+                        don't drag your mouse too much
+                    </p>
+
+                    <button class="px-4 py-2 lg:px-6 lg:py-3 bg-black text-white rounded-full text-xs lg:text-base font-semibold lg:font-medium tracking-tight mt-7">lessgo home <3 </button>
+
+                </div>
+
+            </div>
+
         </div>
 
         <canvas id="draw"></canvas>

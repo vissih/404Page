@@ -2,4 +2,6 @@ i participated in this friendly competition where we had to create the best and 
 
 live link :- https://4o4page.netlify.app/
 
-youtube video :- https://www.youtube.com/watch?v=uYvwCJNovGY&t=1075s
+youtube video :- 
+  https://www.youtube.com/watch?v=zFFmZ8KiFVM&t=1146s
+  https://www.youtube.com/watch?v=uYvwCJNovGY&t=1075s
